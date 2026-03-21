@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="AK monogram">
+  <defs>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#7df9d0" />
+      <stop offset="100%" stop-color="#ff8f5c" />
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="24" fill="#09101d" />
+  <path d="M24 68L40 28H48L64 68H55.6L51.8 57.8H36L32.2 68H24ZM38.8 50.8H49.1L43.9 36.2L38.8 50.8Z" fill="url(#g)" />
+  <path d="M60.8 28H69.2V45.4L85.1 28H96L77.8 47.3L96 68H85L69.2 49.4V68H60.8V28Z" fill="#f4efe7" />
+</svg>
