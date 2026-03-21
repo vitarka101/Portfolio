@@ -1,8 +1,3 @@
-const year = document.getElementById("year");
-if (year) {
-  year.textContent = `${new Date().getFullYear()} Portfolio`;
-}
-
 const path = window.location.pathname.split("/").pop() || "index.html";
 const currentPage = path === "" || path === "index.html" ? "index" : path.replace(".html", "");
 

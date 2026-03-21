@@ -39,12 +39,21 @@
 
     <main class="projects-main">
       <section class="projects-hero">
-        <p class="eyebrow">Projects</p>
-        <h1 class="projects-title">Selected work on the left, experience on the right.</h1>
-        <!-- <p class="projects-copy">
-            A cleaner project page: compact project summaries, direct links, and a readable vertical timeline of what
-            I have built across roles.
-          </p> -->
+        <div class="projects-hero-grid">
+          <div class="projects-hero-copy-block">
+            <p class="eyebrow">Projects</p>
+            <h1 class="projects-title">Selected projects, with experience alongside.</h1>
+          </div>
+
+          <aside class="projects-quote-card" aria-label="Project quote">
+            <p class="projects-quote-mark">"</p>
+            <blockquote class="projects-quote">
+              Everything can be taken from a man but one thing: the last of the human freedoms—to choose one's attitude
+              in any given set of circumstances, to choose one's own way
+            </blockquote>
+            <p class="projects-quote-signoff"> Viktor Frankl</p>
+          </aside>
+        </div>
       </section>
 
       <section class="projects-layout">
@@ -71,7 +80,7 @@
 
           <article class="projects-card">
             <div class="projects-card-head">
-              <span class="projects-chip">Public Repo</span>
+              <!-- <span class="projects-chip">Public Repo</span> -->
               <span class="projects-chip">Vision + Evidence</span>
             </div>
             <h2>Label Lens</h2>
@@ -100,7 +109,7 @@
 
           <article class="projects-card">
             <div class="projects-card-head">
-              <span class="projects-chip">Public Repo</span>
+              <!-- <span class="projects-chip">Public Repo</span> -->
               <span class="projects-chip">Agent Workflow</span>
             </div>
             <h2>MySQL Query Agent for Retail Data</h2>
@@ -117,7 +126,7 @@
 
           <article class="projects-card">
             <div class="projects-card-head">
-              <span class="projects-chip">Public Repo</span>
+              <!-- <span class="projects-chip">Public Repo</span> -->
               <span class="projects-chip">Analysis</span>
             </div>
             <h2>FEC US Campaign Finance Analysis</h2>
@@ -136,7 +145,7 @@
 
           <article class="projects-card">
             <div class="projects-card-head">
-              <span class="projects-chip">Public Repo</span>
+              <!-- <span class="projects-chip">Public Repo</span> -->
               <span class="projects-chip">ML</span>
             </div>
             <h2>UCI Heart Disease Classification</h2>
@@ -207,10 +216,9 @@
       </section>
     </main>
 
-    <footer class="site-footer projects-footer">
-      <p>Ayush Kumar</p>
-      <p id="year"></p>
-    </footer>
+      <footer class="site-footer projects-footer">
+        <p>Ayush Kumar</p>
+      </footer>
   </div>
 
   <script src="script.js"></script>
