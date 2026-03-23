@@ -1272,6 +1272,14 @@ body.projects-page::after {
   align-items: start;
 }
 
+.projects-timeline-column {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+  position: sticky;
+  top: 24px;
+}
+
 .projects-list-column,
 .projects-timeline-panel {
   display: grid;
@@ -1378,8 +1386,6 @@ body.projects-page::after {
 }
 
 .projects-timeline-panel {
-  position: sticky;
-  top: 24px;
   padding: 18px 18px 12px;
 }
 
@@ -1442,6 +1448,41 @@ body.projects-page::after {
   color: var(--muted);
 }
 
+.projects-research-panel {
+  position: static;
+  padding-bottom: 18px;
+}
+
+.projects-research-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 4px;
+}
+
+.projects-research-item {
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.projects-research-item:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.projects-research-item h3 {
+  margin: 8px 0 0;
+  font-size: 1rem;
+}
+
+.projects-research-item p {
+  margin-top: 6px;
+  color: var(--muted);
+}
+
+.projects-research-points {
+  margin-top: 12px;
+}
+
 .projects-footer {
   padding-top: 20px;
 }
@@ -1455,6 +1496,11 @@ body.projects-page::after {
 
   .projects-timeline-panel {
     position: static;
+  }
+
+  .projects-timeline-column {
+    position: static;
+    top: auto;
   }
 }
 
