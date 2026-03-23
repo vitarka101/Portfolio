@@ -1734,6 +1734,10 @@ body.projects-page::after {
 }
 
 @media (max-width: 760px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+
   .contact-page .projects-hero {
     margin-bottom: 14px;
   }
