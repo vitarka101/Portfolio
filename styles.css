@@ -43,7 +43,8 @@ body {
 }
 
 .home-page {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body::before {
@@ -1003,6 +1004,10 @@ kbd {
 
 .home-page.zen-mode .zen-frame {
   pointer-events: auto;
+}
+
+.home-page.zen-mode {
+  overflow: hidden;
 }
 
 .home-page.zen-mode .home-overlay {
